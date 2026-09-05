@@ -1,0 +1,111 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* App.swift */; };
+		A00000000000000000000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* ContentView.swift */; };
+		A00000000000000000000003 /* helpers in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000003 /* helpers */; };
+		A00000000000000000000004 /* views in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* views */; };
+		A00000000000000000000005 /* exploit in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* exploit */; };
+		A00000000000000000000006 /* kexploit in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* kexploit */; };
+		A00000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* Assets.xcassets */; };
+		A00000000000000000000008 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* Info.plist */; };
+		A00000000000000000000009 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000009 /* en.lproj */; };
+		A0000000000000000000000A /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* es.lproj */; };
+		A0000000000000000000000B /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* vi.lproj */; };
+		A0000000000000000000000C /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* zh-Hans.lproj */; };
+		A0000000000000000000000D /* Patches in Resources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* Patches */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B00000000000000000000003 /* helpers */ = {isa = PBXFileReference; lastKnownFileType = folder; path = helpers; sourceTree = "<group>"; };
+		B00000000000000000000004 /* views */ = {isa = PBXFileReference; lastKnownFileType = folder; path = views; sourceTree = "<group>"; };
+		B00000000000000000000005 /* exploit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = exploit; sourceTree = "<group>"; };
+		B00000000000000000000006 /* kexploit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = kexploit; sourceTree = "<group>"; };
+		B00000000000000000000007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00000000000000000000008 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000009 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		B0000000000000000000000A /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		B0000000000000000000000B /* vi.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vi.lproj; sourceTree = "<group>"; };
+		B0000000000000000000000C /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zh-Hans.lproj; sourceTree = "<group>"; };
+		B0000000000000000000000D /* Patches */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Patches; sourceTree = "<group>"; };
+		B0000000000000000000000E /* ThreeOneOSFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3105.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {isa = PBXGroup; children = (
+			G00000000000000000000001 /* ThreeOneOSFive */,
+			D00000000000000000000002,
+		); sourceTree = "<group>"; };
+		D00000000000000000000002 = {isa = PBXGroup; children = ( B0000000000000000000000E, ); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		G00000000000000000000001 /* ThreeOneOSFive */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = ( G00000000000000000000002 /* Build exclusions */ ); path = ThreeOneOSFive; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		G00000000000000000000002 /* Build exclusions */ = {isa = PBXFileSystemSynchronizedBuildFileExceptionSet; membershipExceptions = ( Info.plist, ); target = E00000000000000000000001; };
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* 3105 */ = {isa = PBXNativeTarget; buildConfigurationList = E00000000000000000000003 /* Build configuration list for PBXNativeTarget "3105" */; buildPhases = (
+			E00000000000000000000004 /* Sources */,
+			C00000000000000000000001 /* Frameworks */,
+			E00000000000000000000005 /* Resources */,
+		); buildRules = (); dependencies = (); fileSystemSynchronizedGroups = ( G00000000000000000000001, ); name = 3105; productName = 3105; productReference = B0000000000000000000000E; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000002 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; ORGANIZATIONNAME = ""; TargetAttributes = { E00000000000000000000001 = { CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = E00000000000000000000006 /* Build configuration list for PBXProject "ThreeOneOSFive" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = ( en, es, vi, "zh-Hans", Base, ); mainGroup = D00000000000000000000001; productRefGroup = D00000000000000000000002; projectDirPath = ""; projectRoot = ""; targets = ( E00000000000000000000001, ); };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00000000000000000000005 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A00000000000000000000007,
+			A00000000000000000000008,
+			A00000000000000000000009,
+			A0000000000000000000000A,
+			A0000000000000000000000B,
+			A0000000000000000000000C,
+			A0000000000000000000000D,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00000000000000000000004 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A00000000000000000000001,
+			A00000000000000000000002,
+			A00000000000000000000003,
+			A00000000000000000000004,
+			A00000000000000000000005,
+			A00000000000000000000006,
+		); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; CODE_SIGNING_REQUIRED = NO; INFOPLIST_FILE = ThreeOneOSFive/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.apple.mobile.MobileHouseArrest; PRODUCT_NAME = 3105; SDKROOT = iphoneos; SWIFT_OBJC_BRIDGING_HEADER = ThreeOneOSFive/ThreeOneOSFive-Bridging-Header.h; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		F00000000000000000000002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; CODE_SIGNING_REQUIRED = NO; INFOPLIST_FILE = ThreeOneOSFive/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 16.0; PRODUCT_BUNDLE_IDENTIFIER = com.apple.mobile.MobileHouseArrest; PRODUCT_NAME = 3105; SDKROOT = iphoneos; SWIFT_OBJC_BRIDGING_HEADER = ThreeOneOSFive/ThreeOneOSFive-Bridging-Header.h; SWIFT_OPTIMIZATION_LEVEL = "-O"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+		F00000000000000000000003 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; CODE_SIGNING_REQUIRED = NO; SDKROOT = iphoneos; }; name = Debug; };
+		F00000000000000000000004 /* Release */ = {isa = XCBuildConfiguration; buildSettings = { ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CODE_SIGNING_ALLOWED = NO; CODE_SIGNING_REQUIRED = NO; SDKROOT = iphoneos; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00000000000000000000003 /* Build configuration list for PBXNativeTarget "3105" */ = {isa = XCConfigurationList; buildConfigurations = ( F00000000000000000000001, F00000000000000000000002, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		E00000000000000000000006 /* Build configuration list for PBXProject "ThreeOneOSFive" */ = {isa = XCConfigurationList; buildConfigurations = ( F00000000000000000000003, F00000000000000000000004, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000002 /* Project object */;
+}
